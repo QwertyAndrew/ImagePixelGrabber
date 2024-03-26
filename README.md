@@ -1,6 +1,8 @@
 # ImagePixelGrabberRBLX!
 A small Python software where it helps user to resize a PNG image (format in RGBA) to 64x64 resolution, along an export of RGBA array inside a new text file ColorValue.txt. 
-This is purposely for a Roblox game where you can upload any images in 64x64 resolution without being check by the moderation bot. 
+
+This is purposely for a [Roblox game](https://www.roblox.com/games/11442061911/image-png) where you can upload any images in 64x64 resolution without being check by the moderation bot. 
+
 Note that you cannot do anything in this game except see your given image displaying as 64 x 64 resolution, this is for education purposes, therefore any images you send, never be saved at all, nor be shown in public.
 
 # Installation
