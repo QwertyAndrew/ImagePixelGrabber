@@ -13,7 +13,9 @@ Once installed, you are ready to go.
 
 # Usage
 1. Implement a PNG file inside the folder where the ImagePixelGrabberRBLX.py file is.
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+
+![](/ImageForREADME/ImageInFolder.jpg)
+
 2. Open the Python file.
 3. As long as the PNG file is formatted in RGBA, the image itself will be resized to 64x64 resolution. It will also open the file just to let you know how it will looks like.
 4. Wait until the console prints "Success", there will be a new file called ColorValue.txt, contains an array of color value from the resized image.
