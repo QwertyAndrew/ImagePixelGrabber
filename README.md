@@ -6,7 +6,7 @@ Note that you cannot do anything in this game except see your given image displa
 # Installation
 You need Python, so make sure to [download Python](https://www.python.org/downloads/) first.
 After that, you need to install Pillow, therefore you need to type this inside the terminal.
-```bash
+```python
 pip install Pillow
 ```
 Once installed, you are ready to go.
@@ -18,9 +18,27 @@ Once installed, you are ready to go.
 
 2. Open the Python file.
 3. As long as the PNG file is formatted in RGBA, the image itself will be resized to 64x64 resolution. It will also open the file just to let you know how it will looks like.
+
+![](/ImageForREADME/Success.jpg)
+
 4. Wait until the console prints "Success", there will be a new file called ColorValue.txt, contains an array of color value from the resized image.
+
+![](/ImageForREADME/ColorValueTXT.jpg)
+
 5. To implement the color value to the game, create a new [Pastebin](https://pastebin.com), paste the color array inside.
+
+![](/ImageForREADME/Pastebin.jpg)
+
 6. Remember to set it public, title does not matter, and upload to Pastebin.
-7. Copy the ID of your Pastebin.
+7. Copy the ID of your Pastebin, you can even use the example ID below.
+
+![](/ImageForREADME/PastebinID.jpg)
+
 8. Simply paste the ID to the texbox in the game.
 9. Your image is now in the game.
+
+![](/ImageForREADME/UploadImage.gif)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
