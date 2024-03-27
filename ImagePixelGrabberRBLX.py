@@ -14,8 +14,9 @@ while True:
         # Check if any file has a PNG
         png_files = [file for file in files if file.lower().endswith('.png')]
         if not png_files:
-            print("Sorry, but no PNG image file is found. Please try again.")
+            print("To proceed, please make sure you have a PNG image file in this folder :D")
             time.sleep(5)
+            os.system('cls')
             continue  # Continue to the next iteration of the loop until there is a PNG file in the folder
         
         # Get the first PNG file found
@@ -57,7 +58,7 @@ while True:
         print("Success")
         # Display the image
         final_image.show()
-        time.sleep(5)
+        time.sleep(1)
         break  # Exit the while loop when successful
     except Exception as e:
         print(f"An error occurred: {e}")
