@@ -55,10 +55,10 @@ while True:
             
             fp.write("]")
         
-        print("Success")
+        print("Success! This terminal will close in 5 seconds.")
         # Display the image
         final_image.show()
-        time.sleep(1)
+        time.sleep(5)
         break  # Exit the while loop when successful
     except Exception as e:
         print(f"An error occurred: {e}")
