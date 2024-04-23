@@ -14,12 +14,12 @@ pip install Pillow
 Once installed, you are ready to go.
 
 # Usage
-1. Implement a PNG file inside the folder where the ImagePixelGrabberRBLX.py file is.
+1. Implement a PNG, JPG, or JPEG file inside the folder.
 
 ![](/ImageForREADME/ImageInFolder.jpg)
 
 2. Open the Python file.
-3. As long as it's a PNG file, the image itself will be resized to 64x64 resolution. It will also open the file just to let you know how it will looks like.
+3. As long as it's a valid file format, the image itself will be resized to 64x64 resolution. It will also open the file just to let you know how it will looks like.
 
 ![](/ImageForREADME/Success.jpg)
 
@@ -31,7 +31,7 @@ Once installed, you are ready to go.
 
 ![](/ImageForREADME/Pastebin.jpg)
 
-6. Remember to set it public, title does not matter, and upload to Pastebin.
+6. Remember to set it public, and upload to Pastebin.
 7. Copy the ID of your Pastebin, you can even use the example ID below.
 
 ![](/ImageForREADME/PastebinID.jpg)
