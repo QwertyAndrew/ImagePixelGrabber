@@ -20,7 +20,7 @@ while True:
             continue  # Continue to the next iteration of the loop until there is an image file in the folder
         
         # Get the first PNG file found
-        image_filename = png_files[0]
+        image_filename = image_files[0]
         image_path = os.path.join(script_dir, image_filename)
         
         # Load the image
@@ -32,8 +32,10 @@ while True:
         # Get pixel values
         pixel_val = list(final_image.getdata())
         
-        # Create a new text file "ColorValue.txt" in the script directory
-        output_file = os.path.join(script_dir, "ColorValue.txt")
+        # Create a new text file with the same name as the image file but with .txt extension
+        image_name_without_extension = os.path.splitext(image_filename)[0]  # Extracting the name without extension
+        output_file = os.path.join(script_dir, f"{image_name_without_extension}_ColorArray.txt")
+        
         with open(output_file, "w") as fp:
             fp.write("[")
             for i in range(len(pixel_val) - 1):
