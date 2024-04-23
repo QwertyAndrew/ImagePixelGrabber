@@ -11,13 +11,13 @@ while True:
         # Get a list of all files in the script directory
         files = os.listdir(script_dir)
         
-        # Check if any file has a PNG
-        png_files = [file for file in files if file.lower().endswith('.png')]
-        if not png_files:
-            print("To proceed, please make sure you have a PNG image file in this folder :D")
+        # Check if any file has a PNG or JPEG extension
+        image_files = [file for file in files if file.lower().endswith('.png') or file.lower().endswith('.jpg') or file.lower().endswith('.jpeg')]
+        if not image_files:
+            print("To proceed, please make sure you have a PNG, JPG, or JPEG image file in this folder :D")
             time.sleep(5)
-            os.system('cls')
-            continue  # Continue to the next iteration of the loop until there is a PNG file in the folder
+            os.system('cls')  # Clear the terminal screen
+            continue  # Continue to the next iteration of the loop until there is an image file in the folder
         
         # Get the first PNG file found
         image_filename = png_files[0]
