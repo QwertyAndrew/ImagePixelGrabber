@@ -6,11 +6,34 @@ This is purposely for a [Roblox game](https://www.roblox.com/games/11442061911/i
 Note that you cannot do anything in this game except see your given image displaying as 64 x 64 resolution, this is for education purposes, therefore any images you send, never be saved at all, nor be shown in public.
 
 # Installation
+To get the file, you need to either [clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository):
+
+```
+https://github.com/QwertyAndrew/ImagePixelGrabber.git
+```
+
+Or download as a ZIP:
+
+![](/ImageForREADME/downloadViaZIP.gif)
+
 You need Python, so make sure to [download Python](https://www.python.org/downloads/) first.
-After that, you need to install Pillow, therefore you need to type this inside the terminal.
+
+You also need to install pip, so type this in the terminal, execute them in order.
+
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+
+```
+python get-pip.py
+```
+
+Lastly, you need to install Pillow, therefore you need to type this inside the terminal.
+
 ```python
 pip install Pillow
 ```
+
 Once installed, you are ready to go.
 
 # Usage
@@ -23,7 +46,7 @@ Once installed, you are ready to go.
 
 ![](/ImageForREADME/Success.jpg)
 
-4. Wait until the console prints "Success", there will be a new file called ColorValue.txt, contains an array of color value from the resized image.
+4. Wait until the console prints "Success", there will be a new text file, contains an array of color value from the resized image.
 
 ![](/ImageForREADME/ColorValueTXT.jpg)
 
