@@ -6,6 +6,8 @@ This is purposely for a [Roblox game](https://www.roblox.com/games/11442061911/i
 Note that you cannot do anything in this game except see your given image displaying as 64 x 64 resolution, this is for education purposes, therefore any images you send, never be saved at all, nor be shown in public.
 
 # Installation
+I am currently developing a website specifically for this, just for usability sake. For now, you can follow the instruction below.
+
 To get the file, you need to either [clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository):
 
 ```
@@ -34,35 +36,44 @@ Lastly, you need to install Pillow, therefore you need to type this inside the t
 pip install Pillow
 ```
 
-Once installed, you are ready to go.
+Once installed, you are ready.
 
 # Usage
-1. Implement a PNG, JPG, or JPEG file inside the folder.
+1. Implement a PNG, JPG, or JPEG file inside the folder. Don't worry, it can be in any resolution.
 
 ![](/ImageForREADME/ImageInFolder.jpg)
 
 2. Open the Python file.
-3. As long as it's a valid file format, the image itself will be resized to 64x64 resolution. It will also open the file just to let you know how it will looks like.
+3. As long as it's a valid file format, the image itself will be resized to 64x64 resolution.
 
 ![](/ImageForREADME/Success.jpg)
 
-4. Wait until the console prints "Success", there will be a new text file, contains an array of color value from the resized image.
+4. Wait until the console prints "Success", there will be a new text file, contains an array of color value from the resized image. There will also be a compressed image inside the folder for you to preview at.
 
 ![](/ImageForREADME/ColorValueTXT.jpg)
 
-5. To implement the color value to the game, create a new [Pastebin](https://pastebin.com), paste the color array inside.
+5. To implement the color value to the game, create a new [Pastebin](https://pastebin.com), paste the color array inside. Remember to set it public, and upload.
 
 ![](/ImageForREADME/Pastebin.jpg)
 
-6. Remember to set it public, and upload to Pastebin.
-7. Copy the ID of your Pastebin, you can even use the example ID below.
+6. Copy the ID of your Pastebin, you can even use the example ID below.
 
 ![](/ImageForREADME/PastebinID.jpg)
 
-8. Simply paste the ID to the texbox in the game.
-9. Your image is now in the game.
+7. Simply paste the ID to the texbox in the game.
+8. Your image is now in the game.
 
 ![](/ImageForREADME/UploadImage.gif)
+
+# Troubleshooting
+I will update the game so that it can detect potential errors for the users instead of "Invalid ID". So for now, this section will be empty.
+
+# Potential Issues (that I might fix later)
+1. If the script is placed in a directory without "write" permissions, it may fail.
+2. The script will keep printing a message and clearing the screen if no image provided, not really user-friendly lol.
+3. The script assumes that the image file name won't exceed OS limits for file names.
+4. If the image dimensions are smaller than 64x64 after cropping, the resizing system will go crazy.
+5. This script is not Unix-based friendly, only Windows for now.
 
 ## License
 
